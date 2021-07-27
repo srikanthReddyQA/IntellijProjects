@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1046" started-at="2019-01-23T16:16:33Z" finished-at="2019-01-23T16:16:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1046" started-at="2019-01-23T16:16:33Z" finished-at="2019-01-23T16:16:34Z">
+      <class name="sri.srikanth.Home">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="beforeSuite" is-config="true" duration-ms="347" started-at="2019-01-23T21:46:33Z" finished-at="2019-01-23T21:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="beforeClass" is-config="true" duration-ms="2" started-at="2019-01-23T21:46:33Z" finished-at="2019-01-23T21:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="beforeMethod" is-config="true" duration-ms="954" started-at="2019-01-23T21:46:33Z" finished-at="2019-01-23T21:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sri.srikanth.Home.verifyHomeScreen() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: E:\Resources\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: E:\Resources\chromedriver.exeat com.google.common.base.Preconditions.checkState(Preconditions.java:199)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)at sri.lib.Util.Lanchbrowser(Util.java:105)at sri.lib.Base.beforeMethod(Base.java:93)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyHomeScreen()[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="verifyHomeScreen" duration-ms="0" started-at="2019-01-23T21:46:34Z" finished-at="2019-01-23T21:46:34Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: E:\Resources\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: E:\Resources\chromedriver.exeat com.google.common.base.Preconditions.checkState(Preconditions.java:199)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)at sri.lib.Util.Lanchbrowser(Util.java:105)at sri.lib.Base.beforeMethod(Base.java:93)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeScreen -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-23T21:46:34Z" finished-at="2019-01-23T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:sri.srikanth.Home@5fcd892a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-01-23T21:46:34Z" finished-at="2019-01-23T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- sri.srikanth.Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

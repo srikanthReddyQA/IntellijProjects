@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="sri.srikanth.Login_App">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="Login"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- sri.srikanth.Login_App -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="sri.srikanth.Login_App">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="Login"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- sri.srikanth.Login_App -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

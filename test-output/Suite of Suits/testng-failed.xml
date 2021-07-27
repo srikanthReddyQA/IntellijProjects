@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite of Suits]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="sri.srikanth.Home">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="verifyHomeScreen"/>
+        </methods>
+      </class> <!-- sri.srikanth.Home -->
+      <class name="sri.srikanth.Login_App">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="Login"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- sri.srikanth.Login_App -->
+      <class name="sri.srikanth.Buy">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="buy"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- sri.srikanth.Buy -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite of Suits] -->
